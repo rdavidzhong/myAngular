@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html ng-app="myModule">
 <head>
-    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular.js"></script>
     <script src="Scripts/Script.js"></script>
     <meta charset="UTF-8">
     <title></title>
 
 </head>
-<body>
+<br>
 <div ng-controller="myController">
     {{ message }}
 
@@ -20,6 +20,20 @@
 </div>
 <div>
     20 + 30 = {{ 20 + 30 }}
+</div>
+
+</br>
+
+<div ng-controller="myController">
+    <div>
+        First Name: {{ employee.firstName}}
+    </div>
+    <div>
+        Last Name: {{ employee.lastName}}
+    </div>
+    <div>
+        Gender: {{ employee.gender}}
+    </div>
 </div>
 
 </body>

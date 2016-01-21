@@ -17,5 +17,35 @@ var myController = function($scope)
 
 myApp.controller("myController", function ($scope)
 {
+    // complex object
+    var employee =
+    {
+        firstName: "David",
+        lastName: "Zhong",
+        gender:"Male"
+    };
+
+    $scope.employee = employee;
+
     $scope.message = "========Angular cool==========";
 });
+
+// Above all in one line by using the method "chaining"
+/*
+var myApp = angular
+                  .module("myModule", [])
+                  .controller("myController", function ($scope)
+                  {
+                    // complex object
+                    var employee =
+                    {
+                        firstName: "David",
+                        lastName: "Zhong",
+                        gender:"Male"
+                    };
+
+                    $scope.employee = employee;
+
+                    $scope.message = "========Angular cool==========";
+                  });
+ */
