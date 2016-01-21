@@ -17,6 +17,7 @@ var myController = function($scope)
 
 myApp.controller("myController", function ($scope)
 {
+   /*
     // complex object
     var employee =
     {
@@ -24,10 +25,20 @@ myApp.controller("myController", function ($scope)
         lastName: "Zhong",
         gender:"Male"
     };
+    */
 
-    $scope.employee = employee;
+  ///  $scope.employee = employee;
 
-    $scope.message = "========Angular cool==========";
+  ///  $scope.message = "========Angular cool==========";
+
+    var country =
+    {
+        name: "USA",
+        capital:"BC",
+        flag:"/Images/m.jpg"
+    };
+
+    $scope.country = country;
 });
 
 // Above all in one line by using the method "chaining"
@@ -49,3 +60,5 @@ var myApp = angular
                     $scope.message = "========Angular cool==========";
                   });
  */
+
+// ng-src (source directive)
