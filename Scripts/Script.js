@@ -35,7 +35,7 @@ myApp.controller("myController", function ($scope)
     {
         name: "USA",
         capital:"BC",
-        flag:"/Images/m.jpg"
+        flag:"images/m.jpg"
     };
 
     $scope.country = country;
