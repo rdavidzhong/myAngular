@@ -39,6 +39,14 @@ myApp.controller("myController", function ($scope)
     };
 
     $scope.country = country;
+
+    var employee =
+    {
+        firstName: "David",
+        lastName: "Zh"
+    };
+
+    $scope.employee = employee;
 });
 
 // Above all in one line by using the method "chaining"

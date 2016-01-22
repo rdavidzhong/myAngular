@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/Script.js"></script>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body ng-app="myModule"></body>
+<div ng-controller="myController">
+
+
+    <table>
+        <tr>
+            <td>First Name</td>
+            <td>
+                <!--binding expression-->
+                {{ employee.firstName }}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" ng-model="employee.firstName" />
+            </td>
+        </tr>
+    </table>
+</div>
+
+</html>

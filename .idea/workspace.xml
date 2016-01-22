@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74c1c24e-ed89-4605-bc8d-d193a6235269" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/click.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Scripts/click.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/databinding.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scripts/Script.js" afterPath="$PROJECT_DIR$/Scripts/Script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ng-src.html" afterPath="$PROJECT_DIR$/ng-src.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -28,14 +31,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ng-src.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ng-src.html">
+      <file leaf-file-name="click.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Scripts/click.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6086956">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.48742747">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -47,6 +48,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="Html5" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -64,8 +66,12 @@
         <option value="$PROJECT_DIR$/sync.sh" />
         <option value="$PROJECT_DIR$/HtmlPage1.html" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/Scripts/Script.js" />
         <option value="$PROJECT_DIR$/ng-src.html" />
+        <option value="$PROJECT_DIR$/databinding.html" />
+        <option value="$PROJECT_DIR$/Scripts/Script.js" />
+        <option value="$PROJECT_DIR$/Scripts/click.js" />
+        <option value="$PROJECT_DIR$/Styles.css" />
+        <option value="$PROJECT_DIR$/click.html" />
       </list>
     </option>
   </component>
@@ -77,10 +83,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
     <option name="y" value="23" />
-    <option name="width" value="1098" />
-    <option name="height" value="696" />
+    <option name="width" value="1280" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -105,8 +110,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -155,6 +158,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -167,8 +172,10 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.ng-src.html">
+  <component name="RunManager" selected="JavaScript Debug.click">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -414,12 +421,23 @@
     <configuration default="false" name="ng-src.html" type="JavascriptDebugType" factoryName="JavaScript Debug" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/myAngular/ng-src.html">
       <method />
     </configuration>
-    <list size="2">
+    <configuration default="false" name="databinding" type="JavascriptDebugType" factoryName="JavaScript Debug" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/myAngular/databinding.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="click" type="JavascriptDebugType" factoryName="JavaScript Debug" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/myAngular/click.html">
+      <method />
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.ng-src.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.databinding" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.click" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="74c1c24e-ed89-4605-bc8d-d193a6235269" name="Default" comment="" />
@@ -428,15 +446,17 @@
       <updated>1453291893018</updated>
       <workItem from="1453291896286" duration="978000" />
       <workItem from="1453320821350" duration="4505000" />
-      <workItem from="1453343896631" duration="2560000" />
+      <workItem from="1453343896631" duration="2952000" />
+      <workItem from="1453415760142" duration="40000" />
+      <workItem from="1453422751590" duration="5134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8043000" />
+    <option name="totallyTimeSpent" value="13609000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1098" height="696" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -447,9 +467,9 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23529412" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12647554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29261363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1930533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -464,6 +484,14 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -475,9 +503,71 @@
     <entry file="file://$PROJECT_DIR$/ng-src.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-src.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-src.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="29" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -486,22 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -535,37 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3478261">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453343697000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.46938777">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1453345216000" expanded="true" signature="-1:-1" placeholder="/** Created by codename on 2016-01-20. ...*/" />
-            <marker date="1453345216000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1453345216000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1453345216000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1453345216000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;USA&quot;...}" />
-            <marker date="1453345216000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -573,7 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -581,20 +623,102 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5217391">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <marker date="1453344970000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453344970000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ng-src.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6086956">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.9020979">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453426515000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/databinding.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12587413">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="45" />
+          <folding>
+            <marker date="1453427185000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453427185000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453427185000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453427185000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453427185000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453427185000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453427185000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453427185000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5918762">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <marker date="1453441708000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1453441708000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1453441708000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/click.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36734694">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <marker date="1453441773000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453441773000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453441773000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453441773000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453441773000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453441773000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453441773000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453441773000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453441773000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453441773000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61702126">
+          <caret line="66" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="28" />
+          <folding>
+            <marker date="1453430076000" expanded="true" signature="-1:-1" placeholder="/** Created by codename on 2016-01-20. ...*/" />
+            <marker date="1453430076000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1453430076000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1453430076000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1453430076000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;USA&quot;...}" />
+            <marker date="1453430076000" expanded="true" signature="-1:-1" placeholder="{&quot;firstName&quot;: &quot;David&quot;...}" />
+            <marker date="1453430076000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/click.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48742747">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
