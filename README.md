@@ -1,2 +1,2 @@
 # myAngular
-cool
+For learning
